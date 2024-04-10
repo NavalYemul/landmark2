@@ -1,6 +1,8 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC ## date adn time
+# MAGIC ## date and time
+
+finalised this code
 
 # COMMAND ----------
 
