@@ -1,15 +1,19 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC ## date adn time
+
+# COMMAND ----------
+
+print("test")
+
+# COMMAND ----------
+
 https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/functions.html#functions
 
 # COMMAND ----------
 
 data=[["1","2022-01-01"],["2","2021-02-01"],["3","2020-03-01"]]
 df=spark.createDataFrame(data,["id","input"])
-
-# COMMAND ----------
-
-df.printSchema()
-display(df)
 
 # COMMAND ----------
 
